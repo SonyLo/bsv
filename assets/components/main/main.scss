@@ -1,27 +1,14 @@
-.main {
-    background: url("../img/main_logo.svg") no-repeat;
+.main{
+    background: url("../img/main_fon.png") no-repeat;
     background-size: cover;
     font-size: 28px;
-    position: relative;
-    height: 434px;
-    font-weight: 600;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
+    border-radius: 0 0 50px 50px;
+  
     
-    &-title{
-        font-size: 36px;
- 
+    &-img{
+        margin-right: auto;
+        margin-left: auto;
     }
+  
 
-    &-btn{
-        background: url("../img/btn-slider.png");
-        text-transform: uppercase;
-        width: 220px;
-        height: 65px;
-        position: absolute;
-        left: 40%;
-        font-weight: 700;
-
-    }
 }
