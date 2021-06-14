@@ -1,14 +1,32 @@
 .main{
-    background: url("../img/main_fon.png") no-repeat;
+    background: url("../img/product_1.png") no-repeat;
     background-size: cover;
-    font-size: 28px;
+    font-size: 48px;
     border-radius: 0 0 50px 50px;
-  
+    color: $white;
+    position: relative;
+    text-transform: uppercase;
+    padding: 50px 0;
+    align-items: center;
+    display: flex;
+    
+    
+    .layout{
+        border-radius: 0 0 50px 50px;
+    }
     
     &-img{
         margin-right: auto;
         margin-left: auto;
+        
     }
-  
+    &-img-lang{
+        margin:0;
+    }
+
+    &-title{
+        color: $yellow;
+    }
+
 
 }

@@ -1,0 +1,19 @@
+.product{
+
+    &-phone{
+        background: url("../img/product_tel.png") no-repeat;
+        width: 574px;
+        padding: 19px 0;
+        
+    }
+    
+    a{
+        color: $black;
+    }
+
+    &-row{
+        margin-top: 35px;
+    }
+    
+    
+}

@@ -1,14 +1,16 @@
 
-$red:#e62532;
-
-$shadow:3px 3px 8px rgba(0, 0, 0, 0.25);
-
-$black:#102b3e;
+$yellow:#FEC80B;
 $white:#fff;
+$black:#000000;
+$grey:#F3F3F3;
+
 
 
 @import "base";
+@import "base";
 @import "../main/main";
+@import "../product/product";
+@import "../price/price";
 // @import "../slider/slider";
 // @import "../about/about";
 // @import "../chart/chart";
@@ -27,5 +29,5 @@ $white:#fff;
 // @import "../order/order";
 
 
-// @import "../footer/footer";
+ @import "../footer/footer";
 // @import "../responsive/responsive";
